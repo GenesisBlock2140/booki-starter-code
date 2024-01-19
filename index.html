@@ -16,8 +16,63 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <nav id="navbar">
+                <img src="./images/logo/Booki.png" alt="logo booki" id="logo">
+                <div class="nav-list">
+                    <a class="nav-items" href="#">
+                        Hébergements
+                    </a>
+                    <a class="nav-items" href="#">
+                        Activités
+                    </a>
+                </div>
+            </nav>
+        </header>
         <main>
+            <section>
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p id="headline-p">En plein centre-ville ou en pleine nature</p>
+                <form method="post" action="">
+                    <div class="search-bar">
+                        <div class="location-dot-wrapper">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <input type="text">
+                        <button id="search-bar-btn">
+                            Rechercher
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="filter-list">
+                <h3>Filtres</h3>
+                <button class="btn-filter">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                    Économique
+                </button>
+                <button class="btn-filter">
+                    <i class="fa-solid fa-person"></i>
+                    Familial
+                </button>
+                <button class="btn-filter">
+                    <i class="fa-solid fa-heart"></i>
+                    Romantique
+                </button>
+                <button class="btn-filter">
+                    <i class="fa-solid fa-fire"></i>
+                    Nos pépites
+                </button>
+            </section>
+
+            <section id="info-bar">
+                <div class="fa-info-wrapper">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </section>
+
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
@@ -30,7 +85,8 @@
                     <div class="populaires-cards">
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/emile-guillemot.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -49,7 +105,8 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/aw-creative.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
@@ -68,7 +125,8 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/febrian-zakaria2.jpg"
+                                    alt="Image de la chambre d'hôtel montrant un lit">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Bleu et Blanc</h3>
