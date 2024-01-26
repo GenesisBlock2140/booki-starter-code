@@ -243,7 +243,6 @@ h1 {
 .hebergements .card {
     height: 198px;
     width: 240px;
-    margin-bottom: 30px;
 }
 
 .hebergements .card img {
@@ -275,10 +274,14 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 30px;
 }
 
 .show-more {
     margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /****** Populaires ***********/
