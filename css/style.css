@@ -240,6 +240,47 @@ h1 {
     width: 65%;
 }
 
+.hebergements .card {
+    height: 198px;
+    width: 240px;
+    margin-bottom: 30px;
+}
+
+.hebergements .card img {
+    height: 114px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergements .card-content {
+    padding: 0px 15px;
+}
+
+.hebergements .card-title {
+    margin: 0px;
+    margin-top: 4px;
+}
+
+.hebergements .card-subtitle {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.hebergements .card-rating {
+    margin-bottom: 15px;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.show-more {
+    margin: 0px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
